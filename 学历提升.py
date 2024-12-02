@@ -45,8 +45,8 @@ try:
     time.sleep(1)
 
     # 输入用户名和密码
-    send_keys_to_element("loginForm_username", "410325199111103063")
-    send_keys_to_element("loginForm_password", "Lipeifei.123")
+    send_keys_to_element("loginForm_username", "")
+    send_keys_to_element("loginForm_password", "")
     time.sleep(3)
 
     # 点击验证码按钮
